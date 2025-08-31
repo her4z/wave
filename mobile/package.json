@@ -1,0 +1,42 @@
+{
+  "name": "mobile",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "expo start",
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "build": "expo export",
+    "lint": "echo 'Linting not configured for mobile yet'",
+    "lint:fix": "echo 'Linting not configured for mobile yet'",
+    "clean": "rm -rf dist .expo",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.2.1",
+    "@react-navigation/bottom-tabs": "^7.4.6",
+    "@react-navigation/native": "^7.1.17",
+    "@react-navigation/stack": "^7.4.7",
+    "@tanstack/react-query": "^5.85.5",
+    "axios": "^1.11.0",
+    "expo": "~53.0.22",
+    "expo-constants": "^17.1.7",
+    "expo-device": "^7.1.4",
+    "expo-notifications": "^0.31.4",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-hook-form": "^7.62.0",
+    "react-native": "0.79.6",
+    "socket.io-client": "^4.8.1",
+    "zod": "^4.1.5",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.25.2",
+    "@types/react": "~19.0.10",
+    "typescript": "~5.8.3"
+  },
+  "private": true
+}
